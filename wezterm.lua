@@ -13,5 +13,5 @@ return {
 	font_size = 14.0,
 
 	window_decorations = 'TITLE',
-	window_background_opacity = 0.9,
+	window_background_opacity = 0.95,
 }
