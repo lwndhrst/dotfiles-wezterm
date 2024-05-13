@@ -8,7 +8,7 @@ colors.tab_bar.background = "#0c0b11"
 
 return {
 	-- default_domain = "WSL:Debian",
-	default_prog = { "pwsh" },
+	default_prog = { "pwsh", "-nologo" },
 	enable_tab_bar = false,
 
 	colors = colors,
