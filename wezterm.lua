@@ -1,6 +1,10 @@
 local wezterm = require("wezterm")
-local mux = wezterm.mux
-local colors = require("lua/rose-pine").colors()
+
+-- rose-pine theme
+local theme = wezterm.plugin.require("https://github.com/neapsix/wezterm").main
+local colors = theme.colors()
+colors.background = "#0c0b11"
+colors.tab_bar.background = "#0c0b11"
 
 return {
 	-- default_domain = "WSL:Debian",
@@ -16,4 +20,3 @@ return {
 	window_decorations = "TITLE",
 	window_background_opacity = 0.95,
 }
-
